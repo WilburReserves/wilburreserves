@@ -1,0 +1,103 @@
+{
+  "format": "page",
+  "id": "embers",
+  "label": "Embers",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID"
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "bottle_image": {
+        "type": "Image",
+        "config": {
+          "label": "Bottle Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "feature_image": {
+        "type": "Image",
+        "config": {
+          "label": "Feature Image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "edition": {
+        "type": "Text",
+        "config": {
+          "label": "Edition",
+          "placeholder": ""
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em"
+        }
+      },
+      "price": {
+        "type": "Number",
+        "config": {
+          "label": "Price",
+          "placeholder": "(in kobo)"
+        }
+      },
+      "taste_profile": {
+        "type": "Select",
+        "config": {
+          "label": "Taste Profile",
+          "placeholder": "",
+          "options": ["sweet", "woody", "spicy"],
+          "default_value": "sweet"
+        }
+      },
+      "mood": {
+        "type": "Select",
+        "config": {
+          "label": "Mood",
+          "placeholder": "",
+          "options": ["smooth", "bold", "luxurious"],
+          "default_value": "smooth"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    }
+  }
+}

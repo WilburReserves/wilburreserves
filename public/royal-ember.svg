@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Royal Embers Collection — badge SVG
+     Usage: save as 'royal-embers-collection.svg' and place in /public or assets.
+     Colors: gold #D4AF37 (editable), background transparent.
+-->
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 1200"
+     width="1200" height="1200"
+     role="img"
+     aria-labelledby="title desc">
+  <title id="title">Royal Embers Collection Logo</title>
+  <desc id="desc">Badge logo with crown and ember flame in gold for Royal Embers Collection</desc>
+
+  <!-- Variables (edit color here) -->
+  <defs>
+    <style type="text/css"><![CDATA[
+      .gold { fill: #D4AF37; }
+      .gold-stroke { stroke: #D4AF37; stroke-width: 18; stroke-linejoin: round; stroke-linecap: round; fill: none; }
+      .text-serif { font-family: 'Georgia', 'Times New Roman', serif; fill: #D4AF37; font-weight:700; letter-spacing: 6px; }
+      .text-small { font-family: 'Georgia', 'Times New Roman', serif; fill: #D4AF37; font-weight:500; letter-spacing: 4px; font-size: 40px; }
+    ]]></style>
+  </defs>
+
+  <!-- Outer circular badge (thin gold ring) -->
+  <circle cx="600" cy="600" r="560" class="gold-stroke" opacity="0.95"/>
+
+  <!-- Inner decorative ring (dots) -->
+  <g transform="translate(600,600)" fill="#D4AF37" opacity="0.16">
+    <!-- small repeating dots around -->
+    <!-- simplified: 36 dots -->
+    <!-- generated positions -->
+    <g id="dots">
+      <!-- 36 circles placed by transform (can be edited) -->
+      <circle cx="0" cy="-470" r="6"/>
+      <g transform="rotate(10)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(20)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(30)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(40)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(50)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(60)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(70)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(80)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(90)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(100)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(110)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(120)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(130)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(140)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(150)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(160)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(170)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(180)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(190)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(200)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(210)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(220)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(230)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(240)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(250)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(260)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(270)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(280)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(290)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(300)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(310)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(320)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(330)"><circle cx="0" cy="-470" r="6"/></g>
+      <g transform="rotate(340)"><circle cx="0" cy="-470" r="6"/></g>
+    </g>
+  </g>
+
+  <!-- Central emblem group -->
+  <g transform="translate(600,460)">
+    <!-- Crown (simple stylized crown shape) -->
+    <path d="M-240,120
+             C-200,-60 -80,-60 0,40
+             C80,-60 200,-60 240,120
+             L240,170 C200,150 80,150 0,150 C-80,150 -200,150 -240,170 Z"
+          class="gold" opacity="0.95" transform="translate(0,-30) scale(0.7)"/>
+    <!-- Crown details: three jewels -->
+    <circle cx="-95" cy="-8" r="12" class="gold" transform="translate(0,-30) scale(0.7)"/>
+    <circle cx="0" cy="-28" r="14" class="gold" transform="translate(0,-30) scale(0.7)"/>
+    <circle cx="95" cy="-8" r="12" class="gold" transform="translate(0,-30) scale(0.7)"/>
+
+    <!-- Flame emblem below crown -->
+    <g transform="translate(0,180)">
+      <path d="M0,-120 C40,-90 70,-40 60,0 C36,8 40,32 12,40 C8,52 -8,52 -12,40 C-40,32 -36,8 -60,0 C-70,-40 -40,-90 0,-120 Z"
+            class="gold" opacity="1" />
+      <!-- inner flame to create contrast -->
+      <path d="M0,-90 C18,-74 36,-44 32,-12 C18,-6 20,6 8,12 C6,20 -6,20 -8,12 C-20,6 -18,-6 -32,-12 C-36,-44 -18,-74 0,-90 Z"
+            fill="#000000" opacity="0.06"/>
+    </g>
+  </g>
+
+  <!-- Decorative horizontal separators -->
+  <rect x="240" y="780" width="720" height="6" rx="3" class="gold" opacity="0.9"/>
+  <rect x="240" y="840" width="720" height="4" rx="2" class="gold" opacity="0.7"/>
+
+  <!-- Text: Royal Embers (primary) -->
+  <g transform="translate(600,900)">
+    <text x="0" y="-20" text-anchor="middle" class="text-serif" font-size="64">ROYAL EMBERS</text>
+    <text x="0" y="50" text-anchor="middle" class="text-small">COLLECTION</text>
+  </g>
+
+  <!-- Small copyright / company name -->
+  <text x="600" y="1080" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#D4AF37" opacity="0.85">
+    Wilbur Reserves & Brewery Ltd.
+  </text>
+</svg>
