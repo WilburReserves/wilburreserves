@@ -8,6 +8,9 @@ import { createClient } from "@/prismicio";
 import { isFilled } from "@prismicio/client";
 import { ViewTransitions } from "next-view-transitions";
 
+import { PrismicPreview } from "@prismicio/next";
+import { repositoryName } from "@/prismicio";
+
 
 
 const raleway = Raleway({
@@ -59,6 +62,7 @@ export default async function RootLayout({
 
         <Footer />
       </body>
+      <PrismicPreview repositoryName={repositoryName} />
     </html>
     </ViewTransitions>
   );
